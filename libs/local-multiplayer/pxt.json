@@ -3,7 +3,11 @@
     "description": "Local multiplayer",
     "files": [
         "local.ts",
+<<<<<<< HEAD
         "multiplayerCamera.ts"
+=======
+        "info.ts"
+>>>>>>> aeab9576edd76eed5b442ebf6a90a33bb13852e2
     ],
     "dependencies": {
         "core": "file:../controller"
