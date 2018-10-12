@@ -32,6 +32,5 @@ namespace scene{
         const scene = game.currentScene();
         scene.camera = newCamera;
         scene.background.camera = newCamera;
-        console.log("Setting to new multiplayer camera");
     }
 }
