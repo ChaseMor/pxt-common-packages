@@ -58,4 +58,13 @@ namespace images {
     export function __colorIndexPicker(index: number) {
         return index;
     }
+
+    //% blockId=getcolor block="color %index"
+    //% index.fieldEditor="newcolornumber"
+    //% index.fieldOptions.valueMode="index"
+    //% index.fieldOptions.decompileLiterals="true"
+    //% weight=100 group="Create"
+    export function _newColorIndexPicker(index: number) {
+        return index;
+    }
 }
